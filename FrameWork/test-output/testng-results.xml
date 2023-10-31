@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[world]]>
+    </line>
+    <line>
+      <![CDATA[hello]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-10-28T00:47:01 GMT-04:00" name="Default suite" finished-at="2023-10-28T00:47:01 GMT-04:00" duration-ms="78">
+    <groups>
+    </groups>
+    <test started-at="2023-10-28T00:47:01 GMT-04:00" name="Default test" finished-at="2023-10-28T00:47:01 GMT-04:00" duration-ms="78">
+      <class name="testNG.DemoPriority">
+        <test-method signature="test2()[pri:0, instance:testNG.DemoPriority@5c10f1c3]" started-at="2023-10-28T00:47:01 GMT-04:00" name="test2" finished-at="2023-10-28T00:47:01 GMT-04:00" duration-ms="12" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[world]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test1()[pri:1, instance:testNG.DemoPriority@5c10f1c3]" started-at="2023-10-28T00:47:01 GMT-04:00" name="test1" finished-at="2023-10-28T00:47:01 GMT-04:00" duration-ms="7" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[hello]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- testNG.DemoPriority -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
